@@ -16,6 +16,7 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+    
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -27,7 +28,7 @@
   </head>
   <body>
     <!--Barra de navegación-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
       <a class="navbar-brand" href="#"
         ><img
           width="30"
@@ -121,7 +122,7 @@
     </header>
 
     <!--Quienes somos-->
-    <article class="container" id="quienes_somos">
+    <article class="container d-none d-md-block" id="quienes_somos">
       <h3 class="my-4 text-center">¿Quiénes somos?</h3>
       <div class="row border-top border-info">
         <div class="col-4 text-center my-4">
@@ -172,10 +173,11 @@
     <!--Destacados-->
     <section class="container" id="destacados">
       <h3 class="my-4 text-center">Destacados</h3>
+      <div class="row">
       <div class="border-top border-info">
         <div class="card-deck mt-4">
-          <div class="col-3">
-            <div class="card bg-info" style="width: 14rem">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card bg-info" style="">
               <img
                 src="./assets/img/card1.jpg"
                 class="card-img-top"
@@ -191,8 +193,8 @@
             </div>
           </div>
 
-          <div class="col-3">
-            <div class="card bg-info" style="width: 14rem">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card bg-info" style="">
               <img
                 src="./assets/img/card2.jpg"
                 class="card-img-top"
@@ -208,8 +210,8 @@
             </div>
           </div>
 
-          <div class="col-3">
-            <div class="card bg-info" style="width: 14rem">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card bg-info" style="">
               <img
                 src="./assets/img/card3.jpg"
                 class="card-img-top"
@@ -225,8 +227,8 @@
             </div>
           </div>
 
-          <div class="col-3">
-            <div class="card bg-info" style="width: 14rem">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card bg-info" style="">
               <img
                 src="./assets/img/card4.jpg"
                 class="card-img-top"
@@ -243,6 +245,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <!--Contacto-->
@@ -262,8 +265,8 @@
     <!--Footer-->
 
     <footer class="bg-info col-12">
-      <div class="container row ml-5">
-        <h4 class="my-2 pl-5">Viajes Chile</h4>
+      <div class="container row ml-5 py-2">
+        <h4 class="">Viajes Chile</h4>
         <div class=" ml-auto my-auto">
           <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-2x mx-2"></i></a>
           <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
@@ -288,6 +291,7 @@
       integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
